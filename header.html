@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation Bar</title>
+    <style>
+        *{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+       .nav-container{
+           display: flex;
+           background: rgba(0, 0, 0, 0.875);
+           padding: 1rem 0;
+           justify-content: space-around;
+           align-items: center;
+       }
+       
+       .nav-container nav ul{
+           display: flex;
+           list-style: none;
+       }
+
+       .nav-brand h2{
+           color: white;
+       }
+
+       .nav-container nav ul li a{
+           color: white;
+           text-decoration: none;
+           margin: 0 12px;
+           display: inline-block;
+       }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="nav-container">
+            <div class="nav-brand">
+                <h2>Municat</h2>
+            </div>
+
+            <nav>
+                <ul>
+                    <li>
+                        <a href="">Home</a>
+                        <a href="">About</a>
+                        <a href="">Contact</a>
+                        <a href="">Support</a>
+                        <a href="">Blog</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+</body>
+</html>
